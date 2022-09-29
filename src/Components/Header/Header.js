@@ -7,11 +7,15 @@ export default function Header() {
     <header> 
       <h3>To-Do List</h3>
       <div>
+        
         <NavLink className='user-link' to='/auth/sign-in'>Sign In</NavLink>
         <div>
 
         </div>
         <NavLink className='user-link' to='/auth/sign-up'>Sign Up</NavLink>
+      </div>
+      <div>
+        <NavLink className='user-link' to='/auth/sign-out' >Sign Out</NavLink>
       </div>
     </header>
   );

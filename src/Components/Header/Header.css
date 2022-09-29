@@ -11,6 +11,7 @@ header {
 }
 
 .user-link {
-    padding-left: 79em;
+    padding-left:30em;
     cursor: pointer blue;
+    font-size: smaller;
 }
