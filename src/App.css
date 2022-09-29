@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.user-sign-in {
+  border: 3px black dotted;
+  border-radius: 15%;
+  width: 20%;
+  margin: auto;
+}

@@ -3,5 +3,9 @@ header {
     top: 0;
     display: flex;
     align-items: center;
-    background-color: var(--header-background);
+    background-color: rgb(116, 116, 153);
+    padding: 15px;
+    color: white;
+    border: 3px black solid;
+    margin: 20px;
 }
