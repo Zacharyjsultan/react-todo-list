@@ -9,3 +9,8 @@ header {
     border: 3px black solid;
     margin: 20px;
 }
+
+.user-link {
+    padding-left: 79em;
+    cursor: pointer blue;
+}

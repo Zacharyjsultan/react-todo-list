@@ -24,6 +24,7 @@ export default function Auth() {
 
   return (
     <>
+
       <div className="user-sign-in">
         <label>Email=</label>
         <input type="text" value={email} onChange={(e) => setEmail(e.target.value)} />
