@@ -2,3 +2,4 @@ STATE CHANGES VIEW -> USER UPDATES STATE -> STATE CHANGES VIEW -> USER UPDATES S
 
 FOCUS ON THE FLOW!
 
+STATE: user, setUser, email, SetEmail, password, SetPassword, Type

@@ -3,6 +3,6 @@ import './Header.css';
 
 export default function Header() {
   return (
-    <div>Header</div>
+    <header>TO-DO</header>
   );
 }
