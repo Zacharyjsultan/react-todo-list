@@ -10,8 +10,8 @@ import { userTodo } from '../services/todos';
 export default function Tasks() {
   
   const { user, setUser } = useContext(UserContext);
-
-  const { todos, setTodos } = useTodos();
+// need to re-add todos
+  const { setTodos } = useTodos();
   const [description, setDescription] = useState('');
 
   if (!user) return <Redirect to="/auth/sign-in" />;
@@ -45,6 +45,7 @@ export default function Tasks() {
         <input type='text' placeholder='todo?' value={description} onChange={(e) => { setDescription(e.target.value);
         }} ></input>
         <button onClick={handleNewTodo}>Something To Do</button>
+  
       </div>
      
 

@@ -14,8 +14,10 @@ export default function Header() {
         </div>
         <NavLink className='user-link' to='/auth/sign-up'>Sign Up</NavLink>
       </div>
-      <div>
-        <NavLink className='user-link' to='/auth/sign-out' >Sign Out</NavLink>
+      <>
+      </>
+      <div className='howdy'>
+   
       </div>
     </header>
   );
