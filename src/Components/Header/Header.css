@@ -1,0 +1,18 @@
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background-color: hotpink;
+    padding: 15px;
+    color: white;
+    border: 3px black solid;
+    margin: 20px;
+}
+
+.user-link {
+    padding-left:30em;
+    cursor: pointer blue;
+    font-size: smaller;
+}
+
